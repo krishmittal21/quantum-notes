@@ -1,0 +1,33 @@
+1. Wave properties: Waves, such as sound waves and water waves, travel with a certain
+velocity. Further, waves interact with each other to form complex patterns in a process
+called interference. Sometimes waves can add onto each other to create a bigger wave
+(constructive interference), and sometimes waves can cancel each other out
+(destructive interference)
+
+2. Particle properties: Particles, such as soccer balls, have mass, have a definite, discrete
+location, and also travel with a certain velocity.
+3. Double-slit experiment: The double-slit experiment helps differentiate between waves
+and particles. In this experiment, the wave or particle is aimed at two slits (two openings
+in an opaque barrier), behind which is a plain wall. Particles pass through either the left
+or the right slit, and create two lines of discrete spots on the wall. Waves passing
+through the slits interfere with each other and create a pattern of bright and dark lines on
+the wall.
+
+4. Wave-particle duality: Quantum objects show both wave-like and particle-like
+properties. When quantum objects, such as electrons or photons (particles of light), are
+used in a double slit experiment, they create discrete spots (like particles) but the spots
+are arranged in an interference pattern (like waves). Because of wave-particle duality, we
+can think of qubits as both waves and particles.
+5. Superposition with waves: Superposition is a consequence of wave-particle duality.
+Using the wave nature of qubits, we can represent the two states of the qubit (0 and 1)
+with two waves. To create a superposition state, we can combine these waves.
+
+6. Interference with waves: Interference is also a consequence of wave-particle duality, and
+can be described as the addition or subtraction of the waves representing qubit states.
+Both superposition and interference involve overlap between waves.
+7. Discretization with waves: The discreteness of the quantum world arises when quantum
+objects are confined. Confinement of waves forces them to only take certain shapes or
+energies, much like the waves on the string of a musical instrument fixed at two ends. In
+the quantum world, confinement can exist naturally (for example, in a trapped ion qubit,
+where the negatively charged electron is confined by the positively charged nucleus) or
+be created artificially (such as through electric circuits in superconducting qubits).
