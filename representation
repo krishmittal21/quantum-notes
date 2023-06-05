@@ -1,0 +1,24 @@
+1.Ket notation: The ket notation is used to represent the state of qubits. Putting a “0” or a
+“1” inside a ket shows that it represents a quantum state.
+
+2. Bloch sphere: The Bloch sphere is a way to visually represent qubit states. It
+overcomes the limitations of the arrow notation that we’ve used so far to visualize qubit
+states, which is not very good for representing superposition states. Any qubit state
+can be represented on the Bloch sphere.
+a. The |0> state is located at the top of the Bloch sphere, and the |1> state at the
+bottom.
+b. Any other state on the Bloch sphere represents a superposition of |0> and
+|1>. A superposition can be equal, meaning that |0> and |1> contribute equally to
+the state, or unequal, meaning that either |0> contributes more or |1> does. If the
+state is closer to |0>, it has a greater contribution from |0>. If it is closer to |1>, it
+has a greater contribution from |1>.
+
+3. Quantum Gates: Quantum gates manipulate or change the state of qubits. Gates are
+how we create superposition, interference, and entanglement! The operation of gates
+on qubits can be visualized as rotations on the Bloch sphere.
+a. To visualize these rotations, we need to associate a coordinate system with the
+Bloch sphere. 
+
+4. The X gate: The X gate can be visualized as a 180 degree rotation about the X axis.
+5. The H gate: The H gate creates superposition. It is a uniquely quantum gate!
+Here, |+> and |-> represent two superposition states. 
