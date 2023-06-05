@@ -1,0 +1,34 @@
+Quantum Mechanics - The set of rules that govern the behavior of objects such as
+atoms, molecules, and light. Quantum computers use these rules to solve some
+problems that classical computers have a hard time with.
+2. Quantum objects - Objects such as atoms, molecules, and light which follow the rules
+of quantum mechanics.
+3. Energy - Energy is a property that tells us how hot something is, or how fast it is moving,
+or how fast it could move. In our everyday experience, energy is continuous - if you want
+your food to be a little warmer, you can heat it in the microwave for a few seconds. There
+is no limit to how much or how little energy you can give to an object.
+4. Quantum properties - The counterintuitive behavior of atoms and molecules can be
+summarized into five quantum properties.
+a. Discretization - In atoms and molecules, energy is discrete. This means that
+only some values of energy are allowed. These allowed values of energy are also
+called energy levels. Discretization allows quantum objects to be used for
+computing - their energy levels can be used as 0 and 1.
+b. Superposition - Quantum objects can be in a combination of multiple possible
+states. For example, in an atom, electrons are in a superposition of many
+possible positions.
+c. Interference - The possible states of quantum objects can add up or cancel out.
+An example of interference is noise cancelling headphones, which produce
+sound waves that cancel out external noise through interference. The fact that
+atoms and molecules show similar behavior hints at their wave-like nature.
+d. Entanglement - Two quantum objects are entangled if the state of one object
+depends on the state of another. If you know the state of one quantum object,
+you know the state of the other. Entanglement does not depend on distance -
+entangled quantum particles remain entangled if they are separated by millions of
+miles. Entanglement is a property of multiple (two or more) quantum
+objects, unlike the earlier properties which can happen with one object.
+e. Measurement - There are two ways in which measurement of quantum objects
+is different from measurement in our everyday experience
+i. The results of measurements on quantum objects can be random, that
+is, we might not be able to predict the exact outcome of the measurement
+ii. The state of the quantum object being measured can change as a
+result of the measurement.
