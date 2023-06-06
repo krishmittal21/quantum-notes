@@ -1,0 +1,56 @@
+1. The Z gate: The Z gate performs a 180 degree rotation about the Z axis, i.e., the vertical
+axis. The |0> state, which already points along the Z axis, is unaffected by this gate 
+
+The Z gate rotates the |+> state to the back of the Bloch sphere, changing it to the |->
+state
+
+The |1> state is also unaffected by the Z gate since it points in the vertical direction as
+well. However, the Z gate gives the |1> state a negative sign
+
+2. The Quantum Circuit model captures the 3 major parts of any quantum circuit: the
+qubit states, gates, and measurements.
+a. Measurement is the final step of any circuit. It is how we extract information
+about the state of our qubits in the actual circuit. Without measurements, we
+would never know what state our qubits were in and we would not get the results
+of our computations.
+
+3. When we make measurements on a circuit, we get the answer to the question: “Is the
+state of the qubit |0> or |1>?” These are the only two answers we can get!
+a. For some circuits, such as the one shown below, there is a definite answer to
+this question. In the circuit shown below, the X gate changes the qubit from |0>
+to |1>. So, when we make a measurement, we will always get |1>. We can
+predict this result before we make the measurement.
+
+b. For other circuits, such as the one shown below, there isn’t a definite answer
+to this question. In the circuit below, the H gate changes the qubit from |0> to
+|+>, which is a superposition of |0> and |1>. When we make a measurement on
+this circuit, we will get random results - sometimes we will get |0>, and
+sometimes we will get |1>. There is no way to predict before making the
+measurement if we will get |0> or |1> - the results of the measurement are
+truly random.
+
+c. This is generally true for superposition states. When a qubit is in a
+superposition state, the results of measurement are fundamentally random and
+cannot be predicted.
+d. After the measurement, the state of the qubit changes to the state that it was
+measured in. Therefore, if the result of the measurement was |1>, the qubit will
+be in state |1> after the measurement. Measurement can change the state of
+the qubit. This change is also known as collapse.
+
+4. We can visualize this collapse by thinking about the wave representation of qubit states.
+If the qubit is in a superposition state before measurement, its wave will collapse
+to the wave representing the |0> state or the |1> state after measurement.
+
+5. If the results of measurement can be random, how do we find out what state the qubit
+was in?
+a. We can run the circuit and measure the state of the qubit many, many
+times. Repeated measurements increase the precision of our knowledge about
+the qubit. For example, if the qubit was in the |1> state at the end of the circuit,
+the result of measurement will be |1> every time. If it was in the |+> state, the
+results of measurement will be |0> roughly half the time, and |1> roughly half the
+time.
+
+b. Although we cannot always predict what the exact result of an individual
+measurement will be, we can always predict the probability of different
+possible results of a measurement. We will learn how to do this in a few
+weeks!
