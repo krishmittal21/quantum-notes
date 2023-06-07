@@ -1,0 +1,59 @@
+Stern-Gerlach
+experiment as a demonstration of the importance of measurement bases.
+1. Born rule: The probability of measuring a qubit in the |0> state is given by the square
+of the contribution of |0> to that qubit’s normalized state vector. Similarly, the
+probability of measuring a qubit in the |1> state is given by the square of the contribution
+of |1> to that qubit’s normalized state vector.
+a. Physicists do not fully know why the Born rule works. However, it correctly
+predicts the measurement probabilities of every quantum experiment ever done.
+b. The Born rule is the main reason we normalize quantum states. The
+probabilities of the state being measured as |0> or |1> must add up to 1
+(since 1 implies a 100% probability, and the state will always be measured as
+either |0> or |1>). Therefore, the squares of the contributions of |0> and |1> to the
+quantum state must add up to 1, which is exactly what we ensure by normalizing
+the state.
+
+2. Measurement bases: So far, all of our measurements have been asking the
+question - is the state of the qubit |0>, or is it |1>?  |0>
+and |1> are both along the Z axis on the Bloch sphere
+Therefore, these measurements are called measurements in the Z basis. A basis is
+the direction along which we make our measurements.
+a. We can measure in bases other than the Z basis
+When we make a measurement in the X basis, the question we ask is - “Is
+the state of the circuit |+> or |->”? The only possible answers we will get are
+|+> or |->.
+
+b. In general, whenever we make a measurement on a single qubit, we will get
+one of two possible answers. The two possible answers are determined by
+the basis we choose to measure in. In the Z basis, these two possible answers
+are |0> and |1>. In the X basis, the two possible answers are |+> and |->. In other
+bases, the two answers would be two other states.
+c. The randomness of a quantum measurement is determined by both the
+state being measured, and the basis that the measurement is performed in.
+i. For example, if we measure the |+> state in the Z basis, we get |0> or |1>
+randomly- half the time we get |0> and half the time we get |1>. However,
+if we measure the same |+> state in the X basis, we get |+> every time
+with 100% probability.
+ii. Conversely, if we measure the |0> state in the Z basis, we get |0> with
+100% probability (no randomness). If we measure the same state in the X
+basis, we get |+> half the time and |-> half the time (randomness).
+d. There is nothing special about the |0> and |1> states or the Z basis. It is just the
+basis that is conventionally used for measurement, which is why we emphasized
+it from the beginning. The |0> and |1> states can be expressed as
+superpositions (combinations of |+> and |->) in the X basis, just as the |+>
+and |-> states can be expressed as superpositions (combinations of |0> and
+|1>) in the Z basis.
+3. Stern Gerlach experiment: The Stern Gerlach experiment was an important historical
+experiment that showed the importance of measurement bases. In this experiment, the
+tiny magnetic field that electrons intrinsically possess (called spin) was measured by
+looking at the interaction between the electron  and an
+external magnet 
+
+a. Stern and Gerlach expected the electrons to be deflected onto many different
+positions onto a screen. However, they observed that the electrons were randomly deflected to one of two spots.
+This showed that measurement on a single qubit (an electron in
+this case) only produced one of two possible results.
+b. When they rotated the direction of the external magnet, the two spots on
+the screen also rotated by the same amount. This corresponds to changing
+the basis of measurement, which changed the two possible answers they got
+from the measurement.
