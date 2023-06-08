@@ -1,0 +1,53 @@
+Mathematical representation of qubits: Kets, vectors, and Bloch spheres are ways to
+visualize and represent qubits.
+a. We use Bloch spheres to represent qubits states visually
+b. We use kets to as a shorthand representation of the math of qubits
+c. We use vectors to represent all the details of the math of qubits
+d. Qubits do not physically look like these representations. The physical
+appearance of qubits depends on the type of qubit - a superconducting qubit
+looks like a circuit, a trapped ion qubit looks like an ion.
+
+2. The qubit counting game: The computational power of an ideal-noise-free quantum
+computer scales exponentially with the number of qubits.
+a. While a 55-qubit quantum computer (such as the one Google used to claim
+quantum advantage in 2019) has similar processing power to a really powerful
+supercomputer, IBM’s 127-qubit quantum computer and Quera’s 256 qubit
+quantum computer potentially has computational power far beyond any
+supercomputer.
+b. However, the number of qubits is not the full story. Qubits on all current
+quantum computers are noisy, meaning that they can lose the information
+stored on them due to environmental noise. This is a major limitation on the
+computational power of current quantum computers, and prevents them from
+reaching their theoretical potential.
+
+3. Dimensions in linear algebra: The action of a gate on a qubit is represented as a
+multiplication of the gate’s matrix with the qubit state’s vector. We always write this
+operation as matrix times vector, and not vector times matrix. The rule for
+multiplying two objects (matrix and matrix, or matrix and vector, or vector and vector) in
+linear algebra is that the number of columns in the first object must match the number of
+rows in the second object. This rule holds true for matrix times vector but not for vector
+times matrix.
+4. Bases as rotations of the Bloch sphere: The possible outcomes of a quantum
+measurement depend on the basis that the measurement is performed in. An
+alternative way to visualize a change of basis is a rotation of the Bloch sphere.
+a. When we measure in the Z basis, the Z axis is vertical on the Bloch sphere,
+and all states are expressed as combinations of |0> and |1>, the two states
+that lie along the Z axis.
+
+b. When we measure in the X bais, the X axis is vertical on the Bloch sphere, and
+all states are expressed as combinations of |+> and |->, the two states that lie
+along the X axis.
+c. The choice of which basis to express a state in is yours - there is nothing
+inherently special about any basis.
+d. In quantum computing, the conventional basis that is used is the Z basis.
+5. Predicting the outcome of quantum circuits: We can combine our knowledge of the
+action of gates on qubit states, and the results of measurement, to predict the outcome
+of 1-qubit circuits. There are two steps to predict the outcome of such a circuit:
+a. Step 1: Work out the final state of the qubit before measurement by applying
+all the gates in the circuit to the qubit state sequentially
+b. Step 2: Using the final state of the qubit, as well as the measurement basis,
+work out the possible results of the measurement and their probabilities.
+6. Quantum protocols and algorithms: Quantum algorithms and protocols are
+implemented using complicated quantum circuits! Now that we know how to predict the
+outcome of quantum circuits, we are ready to learn our first quantum protocol - quantum
+key distribution (QKD)
