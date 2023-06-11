@@ -50,7 +50,3 @@ the result of measurement will be |1> every time. If it was in the |+> state, th
 results of measurement will be |0> roughly half the time, and |1> roughly half the
 time.
 
-b. Although we cannot always predict what the exact result of an individual
-measurement will be, we can always predict the probability of different
-possible results of a measurement. We will learn how to do this in a few
-weeks!
